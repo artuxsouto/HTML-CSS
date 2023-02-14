@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-	font-size: 34px;
+	font-size: 36px;
 }
 
 .produtos h2 {
@@ -250,7 +250,7 @@ td, th {
 }
 
 @media screen and (max-width: 480px) {
-	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos {
 		width: auto;
 	}
 
@@ -262,7 +262,13 @@ td, th {
 		position: static;
 	}
 
-	.lista-beneficios, .imagem-beneficios {
+	.lista-beneficios, .imagem-beneficios, .imagem-produto {
 		width: 100%;
+	}
+
+	.produtos li {
+		display: block;
+		margin: 6% auto;
+		width: 85%;
 	}
 }
